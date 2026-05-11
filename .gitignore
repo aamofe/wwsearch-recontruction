@@ -1,0 +1,48 @@
+# 编译产物
+*.o
+*.a
+*.so
+*.dylib
+*.exe
+*.dll
+*.out
+
+# wwsearch 构建目录
+wwsearch/build/
+wwsearch/cmake-build*/
+wwsearch/lib/
+wwsearch/bin/
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+venv/
+env/
+.venv/
+*.egg-info/
+
+# 日志文件
+*.log
+
+# 临时文件
+*.tmp
+*.swp
+.*.sw?
+
+# IDE 配置
+.vscode/
+.idea/
+*.iml
+
+# 环境变量
+.env
+
+# 测试覆盖率
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Docker 相关（如果你有）
+*.pid
